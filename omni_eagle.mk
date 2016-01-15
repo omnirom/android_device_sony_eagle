@@ -19,7 +19,6 @@ TARGET_KERNEL_SOURCE := kernel/sony/msm
 TARGET_OTA_ASSERT_DEVICE := D2303,D2403,eagle
 
 # TWRP Recovery
-DEVICE_RESOLUTION := 540x960
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_10x18.h\"
 
 # Inherit AOSP Yukon common device parts
