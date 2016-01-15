@@ -15,6 +15,9 @@
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/sony/msm
 
+# Bootanimation
+TARGET_BOOTANIMATION_SIZE := 720x407
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := D2303,D2403,eagle
 
