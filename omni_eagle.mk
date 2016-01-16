@@ -24,6 +24,10 @@ TARGET_OTA_ASSERT_DEVICE := D2303,D2403,eagle
 # TWRP Recovery
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_10x18.h\"
 
+# NFC
+PRODUCT_PACKAGES += \
+    nfc_nci.eagle
+
 # Inherit AOSP Yukon common device parts
 $(call inherit-product, device/sony/eagle/aosp_d2303.mk)
 
