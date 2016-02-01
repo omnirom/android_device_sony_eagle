@@ -14,6 +14,7 @@
 
 include device/sony/yukon-common/BoardConfig.mk
 include device/sony/yukon-common/BoardConfigOmni.mk
+include device/sony/common/CommonConfig.mk
 
 TARGET_RECOVERY_FSTAB = device/sony/eagle/rootdir/fstab.yukon
 
