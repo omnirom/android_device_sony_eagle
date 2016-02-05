@@ -27,9 +27,6 @@ BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_10x18.h\"
 # Inherit AOSP Yukon common device parts
 $(call inherit-product, device/sony/eagle/aosp_d2303.mk)
 
-# Inherit Omni Yukon common device parts
-$(call inherit-product, device/sony/yukon-common/device_omni.mk)
-
 # Inherit Omni GSM telephony parts
 $(call inherit-product, vendor/omni/config/gsm.mk)
 
