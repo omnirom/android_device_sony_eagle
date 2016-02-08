@@ -35,6 +35,10 @@ PRODUCT_COPY_FILES += \
     device/sony/eagle/recovery/root/etc/bootrec-device:recovery/root/etc/bootrec-device \
     device/sony/eagle/rootdir/twrp.fstab:recovery/root/etc/twrp.fstab
 
+# Build wcnss from source
+PRODUCT_PACKAGES += \
+   wcnss_service
+
 # Properties
 PRODUCT_PROPERTY_OVERRIDES += \
     telephony.lteOnGSMDevice=1
