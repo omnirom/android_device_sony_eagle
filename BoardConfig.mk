@@ -12,8 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-include device/sony/yukon-common/BoardConfigOmni.mk
-include device/sony/common/CommonConfigOmni.mk
+include device/sony/yukon-common/PlatformConfigOmni.mk
 
 TARGET_RECOVERY_FSTAB = device/sony/eagle/rootdir/fstab.yukon
 
