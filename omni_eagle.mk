@@ -33,7 +33,6 @@ $(call inherit-product, vendor/omni/config/common.mk)
 
 # Recovery
 PRODUCT_COPY_FILES += \
-    device/sony/eagle/recovery/root/etc/bootrec-device:recovery/root/etc/bootrec-device \
     device/sony/eagle/rootdir/twrp.fstab:recovery/root/etc/twrp.fstab
 
 # Build wcnss from source
