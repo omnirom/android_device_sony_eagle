@@ -55,5 +55,5 @@ PRODUCT_PROPERTY_OVERRIDES := \
     ro.usb.pid_suffix=1B8
 
 # Inherit from those products. Most specific first.
-$(call inherit-product, device/sony/yukon-common/platform.mk)
+$(call inherit-product, device/sony/yukon-common/platform_omni.mk)
 $(call inherit-product, vendor/sony/yukon-eagle/eagle-vendor.mk)
