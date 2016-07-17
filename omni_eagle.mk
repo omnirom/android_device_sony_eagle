@@ -24,13 +24,6 @@ BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_10x18.h\"
 # Inherit AOSP Yukon common device parts
 $(call inherit-product, device/sony/eagle/aosp_d2303.mk)
 
-# Inherit Omni GSM telephony parts
-$(call inherit-product, device/sony/common/radio.mk)
-$(call inherit-product, vendor/omni/config/gsm.mk)
-
-# Inherit Omni product configuration
-$(call inherit-product, vendor/omni/config/common.mk)
-
 # Recovery
 PRODUCT_COPY_FILES += \
     device/sony/eagle/rootdir/twrp.fstab:recovery/root/etc/twrp.fstab
